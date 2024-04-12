@@ -54,3 +54,18 @@ a {
 
 a:hover {
     color: ligh
+
+    .form-container {
+    display: flex;
+    align-items: center;
+}
+
+form {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre el formulario y la imagen */
+}
+
+.image {
+    max-width: 20px; /* Ajusta el tamaño de la imagen según lo necesites */
+}
+
