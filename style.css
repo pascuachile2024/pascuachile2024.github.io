@@ -12,13 +12,18 @@ header {
     background-color: #333;
 }
 
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Añadido para centrar el contenido horizontalmente */
+}
+
 form {
     border: 2px solid green;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     max-width: 400px;
-    margin: auto;
 }
 
 label {
@@ -53,19 +58,9 @@ a {
 }
 
 a:hover {
-    color: ligh
-
-    .form-container {
-    display: flex;
-    align-items: center;
-}
-
-form {
-    flex: 1;
-    margin-right: 20px; /* Espacio entre el formulario y la imagen */
+    color: lightgreen;
 }
 
 .image {
-    max-width: 15px; /* Ajusta el tamaño de la imagen según lo necesites */
+    max-width: 100%; /* Añadido para asegurar que la imagen sea responsiva */
 }
-
